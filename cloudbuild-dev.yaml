@@ -1,0 +1,15 @@
+steps:
+#this steps build th econtainer image
+
+- name: "gcr.io/ cloud-builders/dockers"
+  id: Build
+  args:
+    - "build"
+    - "-t"
+    - "gcr.io/$PROJECT_ID/stedi-tests-Chika:latest"
+    - "."
+  - name: "gcr.io/cloud-builders/dockers"
+    id: push
+    args:
+      - "push"
+      - "gcr.io/$PROJECT_ID/stedi-tests-Chika:latest"
