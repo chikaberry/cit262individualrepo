@@ -9,7 +9,7 @@ steps:
       - "gcr.io/$PROJECT_ID/stedi-tests-chika:latest"
       - "."
   - name: "gcr.io/cloud-builders/docker"
-      id: "push"
+      id: push
       args:
         - "push"
         - "gcr.io/$PROJECT_ID/stedi-tests-chika:latest"
