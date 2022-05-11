@@ -1,15 +1,14 @@
 steps:
-#this steps build the container image
-
   - name: "gcr.io/cloud-builders/docker"
-    id: build
-    args:
+    id: Build 
+    args: 
       - "build"
-      - "-t"
-      - "gcr.io/$PROJECT_ID/stedi-tests-chika:latest"
+      - "t"
+      - "gcr.io/$PROJECT_ID/stedi-chikaberry:latest"
       - "."
   - name: "gcr.io/cloud-builders/docker"
-      id: push
-      args:
-        - "push"
-        - "gcr.io/$PROJECT_ID/stedi-tests-chika:latest"
+    id: push
+    args:
+      - "push"
+      - "gcr.io/$PROJECT_ID/stedi-chikaberry:latest"
+
