@@ -3,7 +3,7 @@ steps:
     id: Build 
     args: 
       - "build"
-      - "t"
+      - "-t"
       - "gcr.io/$PROJECT_ID/stedi-chikaberry:latest"
       - "."
   - name: "gcr.io/cloud-builders/docker"
