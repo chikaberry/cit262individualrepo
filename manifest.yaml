@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: chika-stedi
-          image: gcr.io/gcr.io/funky-flex/stedi-chikaberry:latest
+          image: gcr.io/gcr.io/project-funky-flex/stedi-chikaberry:latest
           ports:
             - containerPort: 3000
           resources:
