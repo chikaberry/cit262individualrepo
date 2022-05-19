@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: chika-stedi
-          image: gcr.io/gcr.io/project-funky-flex/stedi-chikaberry:latest
+          image: gcr.io/project-funky-flex/stedi-chikaberry:latest
           command: ["npm"]
           args: ["run","start"]
           ports:
