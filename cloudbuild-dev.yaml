@@ -19,7 +19,7 @@ steps:
     - run
     - --filename=mainfest.yaml
     - --image=gcr.io/project-funky-flex/stedi-chikaberry:latest
-    - --location=us-east1-build
+    - --location=us-east4-b
     - --output=/tmp/outputdev
     - --cluster=cluster-1
 
