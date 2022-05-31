@@ -13,7 +13,7 @@ steps:
       - "gcr.io/project-funky-flex/stedi-chikaberry:latest"
 
   #This step deploys teh dev application in kubernettes
-  -name: 'gcr.io/cloud-builders/gke-deploy'
+  - name: 'gcr.io/cloud-builders/gke-deploy'
     id: Deploy
     args: 
     - run
