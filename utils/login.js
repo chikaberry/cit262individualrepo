@@ -15,7 +15,7 @@ const login = async ({userName, password}) => {
     }
     console.log(options.method);
 
-    const apiResponse = await fetch('https://dev.stedi.me/login',options);
+    const apiResponse = await fetch('http://35.194.74.149/login',options); //https://dev.stedi.me/login
     const loginResponse = await apiResponse.text();
     
     return loginResponse;
