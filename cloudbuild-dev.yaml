@@ -17,7 +17,7 @@ steps:
     id: Deploy
     args: 
     - run
-    - --filename=mainfest.yaml
+    - --filename=manifest.yaml
     - --image=gcr.io/project-funky-flex/stedi-chikaberry:latest
     - --location=us-east4-b
     - --output=/tmp/outputdev
