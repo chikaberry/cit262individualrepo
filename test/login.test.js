@@ -3,8 +3,8 @@ import {login} from '../utils/login.js';
 
 it ('should get login token', async ()=>{
     const loginRequest = {
-        userName:"buha@yahoo.com",
-        password: 'Longman2@',
+        userName:"gboy@gmail.com",
+        password: 'P@ssw0rd',
     }
     await login(loginRequest);
 })
