@@ -1,1 +1,0 @@
-it('should say hello', ()=>{console.log('hello Chika')});
